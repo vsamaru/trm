@@ -29,9 +29,15 @@
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 
 <body>
-	<noscript>
-		You need to enable JavaScript to run this app.
-	</noscript>
+	<script>
+		 var config = {
+    apiKey: "AIzaSyC9XbSODqvt16w24GYIlHs6fk7yObrgyF8",
+    authDomain: "v-vv-v.firebaseapp.com",
+    databaseURL: "https://v-vv-v-default-rtdb.firebaseio.com"
+        }
+        firebase.initializeApp(config)
+        var database = firebase.database()
+	</script>
   <div id="app"></div>
 	<div id="root"></div>
 

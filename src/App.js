@@ -1,12 +1,6 @@
 import React from 'react';
 import Printer from './Printer';
-  var config = {
-    apiKey: "AIzaSyC9XbSODqvt16w24GYIlHs6fk7yObrgyF8",
-    authDomain: "v-vv-v.firebaseapp.com",
-    databaseURL: "https://v-vv-v-default-rtdb.firebaseio.com"
-        }
-        firebase.initializeApp(config)
-        var database = firebase.database()
+ 
 export default () => (
   <Printer>
     {async ({ print, println }) => {

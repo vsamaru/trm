@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: lime;
+  font-family: monospace;
+}
+button {
+  color: lime;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus,
+button:hover,
+button.selected {
+  color: black;
+  background-color: lime;
+}
+hr {
+  border: none;
+  background-color: lime;
+  height: 1px;
+}
+h1 {
+  font-size: 100%;
+  margin: 0;
+}
